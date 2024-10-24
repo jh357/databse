@@ -1,0 +1,10 @@
+drop table 사원;
+
+-- 사원(사원번호,사원명,연락처,생일)
+CREATE TABLE 사원 (
+    사원번호     char(4) ,
+    사원명        varchar(20) , 
+    연락처        char(13) ,
+    생일           varchar(15)  ,
+    PRIMARY KEY(사원번호)
+);
